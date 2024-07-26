@@ -1,0 +1,103 @@
+/* Container styling */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Header styling */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffcc00;
+}
+
+/* Input section styling */
+.input-section {
+    margin-bottom: 20px;
+}
+
+.input-section label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-section input,
+.input-section select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background-color: #444;
+    color: #fff;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffcc00;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #ffaa00;
+}
+
+/* Output section styling */
+.output-section {
+    margin-top: 30px;
+}
+
+.output-section h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #ffcc00;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #444;
+    color: #fff;
+}
+
+table thead {
+    background-color: #555;
+}
+
+table th,
+table td {
+    padding: 10px;
+    border: 1px solid #555;
+    text-align: left;
+}
+
+table th {
+    background-color: #666;
+}
+
+table tr:nth-child(even) {
+    background-color: #555;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    table th,
+    table td {
+        padding: 8px;
+    }
+}
